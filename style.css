@@ -1,0 +1,128 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+/* Header Styles */
+header {
+    background-color: #3c0069;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+header .logo {
+    color: #f0c340;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #f0c340;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #5000a9;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #f0c340;
+}
+
+.hero p {
+    font-size: 20px;
+    color: #fff;
+}
+
+/* Section Styles */
+section {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h2 {
+    color: #f0c340;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Event and News Styles */
+.event-list, .news-list, .ranking-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.event-item, .news-item, .ranking-item {
+    background-color: #2d2d2d;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #3c0069;
+}
+
+.event-item h3, .news-item h3, .ranking-item h3 {
+    color: #f0c340;
+}
+
+/* Registration Form */
+#register form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#register form label {
+    color: #f0c340;
+}
+
+#register form input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #3c0069;
+    background-color: #333;
+    color: #fff;
+}
+
+#register form button {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f0c340;
+    border: none;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#register form button:hover {
+    background-color: #d4a126;
+}
+
+/* Player Ranking Section */
+#ranking button {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f0c340;
+    border: none;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+}
